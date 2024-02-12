@@ -8,11 +8,11 @@ import sys
 
 
 def rename_files(path, pattern, replacement):
-    """Rename files and directories that match a regular expression.
+    """Rename files that match a regular expression.
 
     Args:
         path (str): The path to the root directory to start renaming files.
-        pattern (str): The pattern to match in the file or directory name.
+        pattern (str): The pattern to match in the file.
         replacement (str): The replacement text for the matched pattern.
     """
     count = 0
